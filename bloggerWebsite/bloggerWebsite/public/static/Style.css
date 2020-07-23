@@ -1,0 +1,151 @@
+body{
+  background-color: light;
+  z-index: -1;
+}
+.center{
+	border: none;
+}
+.z_index_up{
+  z-index: 10;
+}
+.z_index_down{
+  z-index: -20;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  padding: 50px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index:100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.button{
+	position: absolute;
+	left: 10%;
+}
+.but{
+margin-left:  200px;
+}
+.button1{
+float: right;
+}
+.btnSignup{
+	margin-right: 10px;
+	color: black;
+}
+
+.btnSignup:hover{
+	  text-decoration: underline;
+
+}
+
+.with{
+	width: 150px;
+}
+
+.with-form{
+  width: 500px;
+  
+}
+.with-form-tow{
+  width: 1000px;
+  
+}
+.with-img{
+  width: 250px;
+  border-radius: 50%;
+}
+
+.userac{
+	padding-left: 20px
+}
+
+.image{
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+
+}
+.cursor{
+  cursor: pointer;
+}
+
+
+@media screen  and (min-width: 1000px) {
+    .image-media {
+     
+        right: 150px;
+    }
+}
+
+@media screen  and (max-width: 500px) {
+    .image-media {
+     
+        right: 75px;
+    }
+}
+
+
+
+
+.image:hover.image{
+  opacity: 0.5;
+
+}
+
+.display-none{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  .image-media-respocive {
+      width: 1095px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .image-media-respocive {
+      width: 700px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image-media-respocive {
+      width: 400px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .image-media-respocive {
+      width: 205px;
+  }
+}
